@@ -1,0 +1,31 @@
+body {
+    text-align: center; 
+    background-color: rgb(120, 255, 255);
+}
+
+img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    height: 200px;
+    width: 200px;
+    border: 5px solid #2200ff;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    color: #000000;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    color: #3a3939;
+}
